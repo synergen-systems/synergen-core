@@ -14,3 +14,14 @@ $$S_{target} = \frac{\Delta \text{Utility}}{\sigma_{Risk} \cdot \text{Corruption
 **Status:** MVP Infrastructure Complete.
 **Action:** Core algorithms (Core Engine, Matching Engine) and Cognitive Assessment module successfully deployed to GitHub.
 **Next Step:** Selecting the first Alpha-candidate for Cognitive Fingerprinting.
+## Multidisciplinary Cluster #1: Traffic Flow Optimization
+**Objective:** Reduce systemic friction in Yerevan's central arteries.
+**Current Leader (Digital Integrator):** @denisasteyan (Denis)
+
+### Open Slots:
+* **Slot 1: Systemic Flow Analyst**
+    * *Profile:* Knows physics of fluids or dynamic systems.
+    * *Task:* Map the friction points in city traffic.
+* **Slot 2: Resource Strategist**
+    * *Profile:* Infrastructure expert or logistics master.
+    * *Task:* Identify underutilized routes and urban resources.
