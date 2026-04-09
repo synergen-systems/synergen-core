@@ -20,7 +20,7 @@ challenges = [
     {
         "id": "CHAL-003",
         "title": "Urban Traffic Flow Optimization",
-        "location": "Yerevan Central Arteries",
+        "location": "High-Density Urban Arteries",
         "required_cognitive_traits": ["dynamic_system_analyst", "flow_optimizer", "logic_integrator"],
         "impact_potential": "High (Reduction of average transit time by 15%)",
         "s_threshold": 4.2
