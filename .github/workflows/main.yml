@@ -1,0 +1,9 @@
+name: Run SYNERGEN
+on: [push]
+jobs:
+  run-logic:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v3
+      - name: Run Main
+        run: python main.py
