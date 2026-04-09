@@ -29,3 +29,11 @@ challenges = [
 
 def get_challenges():
     return challenges
+    {
+        "id": "CHAL-004",
+        "title": "Supply Chain Entropy Reduction",
+        "location": "Global / Digital Network",
+        "required_cognitive_traits": "Strategic Systems Design",
+        "impact_potential": "High (Economic)",
+        "s_threshold": 4.8
+    },
