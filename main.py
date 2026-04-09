@@ -25,3 +25,16 @@ def run_synergy_check():
 
 if __name__ == "__main__":
     run_synergy_check()
+def calculate_synergy(delta_utility, risk_volatility, cost):
+    """
+    Calculates the Systemic Synergy Coefficient (S).
+    Formula: S = delta_utility / (risk_volatility * cost)
+    """
+    if risk_volatility == 0 or cost == 0:
+        return 0
+    
+    s_coefficient = delta_utility / (risk_volatility * cost)
+    return round(s_coefficient, 2)
+
+# Global Threshold for Alpha-Cluster Entry
+S_THRESHOLD = 3.0
