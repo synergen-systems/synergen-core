@@ -1,0 +1,17 @@
+{
+  "Water_Resource_Optimization": {
+    "analytical": 0.5,
+    "physics_oriented": 0.3,
+    "systemic_optimizer": 0.2
+  },
+  "Energy_Grid_Balancing": {
+    "high_risk_tolerance": 0.4,
+    "cross_domain_logic": 0.4,
+    "real_time_adjuster": 0.2
+  },
+  "Skill_Mismatch_Reduction": {
+    "systemic_optimizer": 0.4,
+    "cross_domain_logic": 0.4,
+    "analytical": 0.2
+  }
+}
