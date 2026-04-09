@@ -24,3 +24,4 @@ $$S = \frac{\Delta Utility}{\sigma Risk \cdot Cost}$$
 
 ---
 **SYNERGEN: Where 1+1=3.**
+📧 Contact for Systemic Collaboration: systemssynergen@gmail.com
