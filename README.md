@@ -41,3 +41,13 @@ To run a full system check, cognitive assessment, and matching report, execute:
 python main.py
 **SYNERGEN: Where 1+1=3.**
 📧 Contact for Systemic Collaboration: systemssynergen@gmail.com
+============================================================
+SYNERGEN ENGINE — System Check
+============================================================
+Global S-Coefficient: 100.0
+System Status: ✅ OPERATIONAL
+
+SYNERGEN COGNITIVE ASSESSMENT
+Enter your name: Node_Alpha
+[Q1] Systemic Entropy: Do you add resources or subtract elements...?
+→ Your answer: [Candidate provides systemic logic...]
