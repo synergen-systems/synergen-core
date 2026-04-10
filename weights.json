@@ -1,17 +1,20 @@
 {
-  "Water_Resource_Optimization": {
+  "CHAL-001": {
     "analytical": 0.5,
     "physics_oriented": 0.3,
     "systemic_optimizer": 0.2
   },
-  "Energy_Grid_Balancing": {
+  "CHAL-002": {
     "high_risk_tolerance": 0.4,
     "cross_domain_logic": 0.4,
     "real_time_adjuster": 0.2
   },
-  "Skill_Mismatch_Reduction": {
-    "systemic_optimizer": 0.4,
-    "cross_domain_logic": 0.4,
-    "analytical": 0.2
+  "CHAL-003": {
+    "dynamic_system_analyst": 0.4,
+    "flow_optimizer": 0.4,
+    "logic_integrator": 0.2
+  },
+  "CHAL-004": {
+    "strategic_systems_design": 1.0
   }
 }
