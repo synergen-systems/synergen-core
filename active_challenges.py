@@ -1,6 +1,6 @@
 # SYNERGEN Active Challenges Registry (v1.0)
 
-challenges = [
+  challenges = [
     {
         "id": "CHAL-001",
         "title": "Water Resource Optimization - Pilot A",
@@ -24,16 +24,16 @@ challenges = [
         "required_cognitive_traits": ["dynamic_system_analyst", "flow_optimizer", "logic_integrator"],
         "impact_potential": "High (Reduction of average transit time by 15%)",
         "s_threshold": 4.2
-    }
-]
-
-def get_challenges():
-    return challenges
+    },
     {
         "id": "CHAL-004",
         "title": "Supply Chain Entropy Reduction",
         "location": "Global / Digital Network",
-        "required_cognitive_traits": "Strategic Systems Design",
+        "required_cognitive_traits": ["strategic_systems_design"],
         "impact_potential": "High (Economic)",
         "s_threshold": 4.8
-    },
+    }
+]
+
+def get_challenges():
+    return challenges      
