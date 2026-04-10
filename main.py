@@ -1,40 +1,26 @@
-from active_challenges import get_challenges
-from candidates import get_candidates
+# SYNERGEN Main (v2.0)
 
-def run_synergy_check():
-    challenges = get_challenges()
-    candidates = get_candidates()
-    
-    # Մենք թիրախավորում ենք խցանումների խնդիրը (CHAL-003)
-    traffic_challenge = challenges[2] 
-    
-    print(f"--- SYNERGEN MATCHING SESSION ---")
-    print(f"Targeting Challenge: {traffic_challenge['title']}\n")
-
-    for candidate in candidates:
-        # Հաշվում ենք, թե քանի հատկանիշ է համընկնում
-        matches = set(candidate['cognitive_vector']) & set(traffic_challenge['required_cognitive_traits'])
-        score = len(matches)
-        
-        print(f"Candidate: {candidate['name']}")
-        print(f"Match Score: {score}")
-        if score >= 2:
-            print(f"Result: SUCCESS. Candidate is a HIGH MATCH for this cluster.\n")
-        else:
-            print(f"Result: Candidate requires additional synergy nodes.\n")
+from core_engine import SynergenEngine
+from matching_engine import match_candidates_to_challenges
 
 if __name__ == "__main__":
-    run_synergy_check()
-def calculate_synergy(delta_utility, risk_volatility, cost):
-    """
-    Calculates the Systemic Synergy Coefficient (S).
-    Formula: S = delta_utility / (risk_volatility * cost)
-    """
-    if risk_volatility == 0 or cost == 0:
-        return 0
-    
-    s_coefficient = delta_utility / (risk_volatility * cost)
-    return round(s_coefficient, 2)
+    print("=" * 60)
+    print("SYNERGEN ENGINE — Matching Report")
+    print("=" * 60)
 
-# Global Threshold for Alpha-Cluster Entry
-S_THRESHOLD = 3.0
+    engine = SynergenEngine(
+        utility_gain=1000,
+        risk_sigma=0.05,
+        implementation_cost=200
+    )
+    print(f"\nS-Coefficient: {engine.calculate_synergy_coefficient()}")
+
+    print("\n" + "=" * 60)
+    print("CANDIDATE — CHALLENGE MATCHING")
+    print("=" * 60)
+
+    for result in match_candidates_to_challenges():
+        print(f"\n[{result['challenge_id']}] {result['challenge_title']}")
+        for m in result["matches"]:
+            status = "✅ MATCH" if m["matched"] else "❌ NO MATCH"
+            print(f"  {m['candidate']}: score={m['score']} | threshold={m['threshold']} | {status}")
