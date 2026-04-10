@@ -51,3 +51,15 @@ SYNERGEN COGNITIVE ASSESSMENT
 Enter your name: Node_Alpha
 [Q1] Systemic Entropy: Do you add resources or subtract elements...?
 → Your answer: [Candidate provides systemic logic...]
+---
+
+## 📈 Roadmap
+* [x] v1.0: Basic S-Coefficient Logic
+* [x] v2.0: Weighted JSON Trait Mapping
+* [x] v3.0: Interactive Pipeline & Data Normalization
+* [ ] v3.5: AI-Powered Neural Response Analysis
+* [ ] v4.0: Decentralized Node Participation (Web3)
+
+---
+
+📧 Contact for Systemic Collaboration: systemssynergen@gmail.com
